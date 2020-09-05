@@ -1,0 +1,12 @@
+results/*
+*.psd
+*.mp4
+*.png
+*~
+*#
+*.avi
+*.mov
+*.mat
+*.txt
+.DS_Store
+*/.DS_Store
