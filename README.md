@@ -6,7 +6,7 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST<br>
  BMVC 2020
 
-### [Paper]() | [Presentation Video]() | [Supplemental Results Video]() 
+### [Paper]() | [Project Homepage]() | [Presentation Video]() | [Supplemental Results Video]() 
 
 ## Citation
 If you use this code in your work, please cite the following works:
@@ -34,11 +34,30 @@ If you use this code in your work, please cite the following works:
 * [Troubleshooting](#troubleshooting)
 
 ### Installing ImageStack
+The code uses ImageStack's implementation of Richard Szeliski's LAHBPCG solver. Along with this repo, you will also have to clone the ImageStack submodule:
+
+```
+$ git clone https://github.com/brownvc/lightfielddepth.git
+$ cd lightfielddepth
+$ git submodule init
+```
+
+You may have to install the FFTW3 library for ImageStack:
+
+```
+$ sudo apt-get install fftw3
+```
+
+Then compile the MEX interface to ImageStack:
+
+```
+$ matlab -nodisplay -r "compile_mex; exit"
+``` 
 
 ### Generating Depth
 To generate disparity estimates for all views of a light field, use `run.sh` followed by the path to the light field file:
 
-``` sudo ./run.sh <path-to-light-field> ```
+```$ sudo ./run.sh <path-to-light-field> ```
 
 The light field is provided as a `.mat` file containing a 5D array. The dimensions of the 5D array should be ordered as (y, x, rgb, v, u) where "rgb" denotes the color channels. 
 
@@ -67,9 +86,3 @@ The depth estimation results are output to a 4D MATLAB array in `./results/<time
 ordering; for light field images this should be `(y, x, rgb, v, u)` and for depth labels `(y, x, v, u)`.
 - The output has very high error: Make sure you specify the direction in which the camera moves in u and v. This can be done by setting the boolean variables `uCamMovingRight` and `vCamMovingRight` in `parameters.m`. The camera movement direction determines the occlusion order of EPI lines, and is important for edge detection and depth ordering.
 - The code has been run and tested in MATLAB 2019b. Older version of MATLAB may throw errors on some functions.
-
-## Errata 
-
-- In Figure 8 of the main paper, the central row of the EPFL light fields show view(4, 4), rather than view(5, 5).
-- The manner in which labels are propagated has been updated in this codebase. Before, we began at the top-most view in the central column and moved down. In this code, we move out from the central view in a spiral. This leads to a slight improvement over the results reported in the ICCV published paper. The paper linked from this repository includes the new results which match the code repository.
-- The supplemental material linked from this repository has additional analysis of hyperparameter variation for all techniques across our analysis metrics.

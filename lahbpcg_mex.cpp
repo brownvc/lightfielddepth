@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include "mex.h"
 #include "./ImageStack/src/main.h"
