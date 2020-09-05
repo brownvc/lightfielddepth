@@ -1,0 +1,3 @@
+[submodule "ImageStack"]
+	path = ImageStack
+	url = https://github.com/abadams/ImageStack.git
