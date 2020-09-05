@@ -33,7 +33,9 @@ If you use this code in your work, please cite the following works:
 * [Generating Depth](#generating-depth)
 * [Troubleshooting](#troubleshooting)
 
-### Generating Superpixels
+### Installing ImageStack
+
+### Generating Depth
 To generate disparity estimates for all views of a light field, use `run.sh` followed by the path to the light field file:
 
 ``` sudo ./run.sh <path-to-light-field> ```
@@ -47,7 +49,7 @@ The light field is provided as a `.mat` file containing a 5D array. The dimensio
        | |    x   |  |    x   |
        | |        |  |        |
      v | | y      |  | y      | ....
-       | |        |  |        |     
+       | |        |  |   pp     |     
        | |________|  |________| 
        |           :
        |           :
