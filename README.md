@@ -8,7 +8,7 @@
 
 ### [Paper]() | [Project Homepage]() | [Presentation Video]() | [Supplemental Results Video]() 
 
-<img src="./view-consistent-depth.gif" width="70%"><br>
+<img src="./view-consistent-depth.gif" width="100%"><br>
 
 ## Citation
 If you use this code in your work, please cite the following works:
