@@ -70,7 +70,7 @@ The light field is provided as a `.mat` file containing a 5D array. The dimensio
        | |    x   |  |    x   |
        | |        |  |        |
      v | | y      |  | y      | ....
-       | |        |  |   pp     |     
+       | |        |  |        |     
        | |________|  |________| 
        |           :
        |           :
