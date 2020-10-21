@@ -6,7 +6,7 @@
  <sup>1</sup>Brown, <sup>2</sup>KAIST<br>
  BMVC 2020
 
-### [Paper]() | [Project Homepage]() | [Presentation Video]() | [Supplemental Results Video]() 
+### [Paper](https://www.bmvc2020-conference.com/assets/papers/0395.pdf) | [Project Homepage](http://visual.cs.brown.edu/lightfielddepth/) | [Presentation Video](http://visual.cs.brown.edu/projects/lightfielddepth-webpage/video/presentation.mp4) | [Supplemental Results Video](https://www.bmvc2020-conference.com/assets/supp/0395_supp.mp4) 
 
 <img src="./view-consistent-depth.gif" width="100%"><br>
 
