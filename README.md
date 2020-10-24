@@ -29,7 +29,7 @@ If you use this code in your work, please cite the following works:
   number={CS-20-01},
 }
 ```
-The technical report is available [here](http://cs.brown.edu/research/pubs/techreports/reports/CS-20-01.html).
+The technical report _Fast and Accurate 4D Light Field Depth Estimation_ is available [here](http://cs.brown.edu/research/pubs/techreports/reports/CS-20-01.html).
 
 ## Running the MATLAB Code
 * [Installing ImageStack](#installing-imagestack)
