@@ -15,7 +15,7 @@ If you use this code in your work, please cite the following works:
 
 ```
 @article{khan2020vclfd,
-  title={View-consistent 4D Lightfield Depth Estimation},
+  title={View-consistent {4D} Lightfield Depth Estimation},
   author={Numair Khan, Min H. Kim, James Tompkin},
   journal={British Machine Vision Conferfence},
   year={2020},
@@ -29,6 +29,7 @@ If you use this code in your work, please cite the following works:
   number={CS-20-01},
 }
 ```
+The technical report is available [here](ftp://ftp.cs.brown.edu/pub/techreports/20/cs20-01.pdf).
 
 ## Running the MATLAB Code
 * [Installing ImageStack](#installing-imagestack)
