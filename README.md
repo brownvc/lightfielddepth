@@ -29,7 +29,7 @@ If you use this code in your work, please cite the following works:
   number={CS-20-01},
 }
 ```
-The technical report is available [here](ftp://ftp.cs.brown.edu/pub/techreports/20/cs20-01.pdf).
+The technical report is available [here](http://cs.brown.edu/research/pubs/techreports/reports/CS-20-01.html).
 
 ## Running the MATLAB Code
 * [Installing ImageStack](#installing-imagestack)
