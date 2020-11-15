@@ -43,6 +43,7 @@ The code uses ImageStack's implementation of Richard Szeliski's LAHBPCG solver. 
 $ git clone https://github.com/brownvc/lightfielddepth.git
 $ cd lightfielddepth
 $ git submodule init
+$ git submodule update
 ```
 
 You may have to install the FFTW3 library for ImageStack:
