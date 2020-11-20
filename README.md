@@ -23,7 +23,7 @@ If you use this code in your work, please cite the following works:
 
 @techreport(khan2020falfd,
   title={Fast and Accurate {4D} Light Field Depth Estimation},
-  author={Numari Khan, Min H. Kim, James Tompkin},
+  author={Numair Khan, Min H. Kim, James Tompkin},
   year={2020},
   institution={Brown University},
   number={CS-20-01},
