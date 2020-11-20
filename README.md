@@ -17,7 +17,7 @@ If you use this code in your work, please cite the following works:
 @article{khan2020vclfd,
   title={View-consistent {4D} Lightfield Depth Estimation},
   author={Numair Khan, Min H. Kim, James Tompkin},
-  journal={British Machine Vision Conferfence},
+  journal={British Machine Vision Conference},
   year={2020},
 }
 
