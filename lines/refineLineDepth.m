@@ -4,7 +4,7 @@
 %%
 function [L, C] = refineLineDepth(L, gxEPI, gyEPI, EPI) 
 
-  for k = 1:length(L)
+  parfor k = 1:length(L)
 
     lk = L{k};
 

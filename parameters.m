@@ -2,7 +2,7 @@
 classdef parameters
    properties 
      % Multithreading
-     nWorkers = 30;
+     nWorkers = 3;
 
      szLF = [];
      szEPI = [];
@@ -13,7 +13,7 @@ classdef parameters
      % in an EPI based on slope. 
      % Set the following parameters to ensure the light field is loaded in the 
      % correct order.
-     uCamMovingRight = true; 
+     uCamMovingRight = false; 
      vCamMovingRight = true;
 
      % The maximum absolute disparity between two adjacent light field views

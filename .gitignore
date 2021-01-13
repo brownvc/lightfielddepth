@@ -11,3 +11,4 @@ results/*
 .DS_Store
 */.DS_Store
 *.mexa64
+*#*
