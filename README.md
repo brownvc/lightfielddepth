@@ -4,9 +4,12 @@
  [Min H. Kim](http://vclab.kaist.ac.kr/minhkim/)<sup>2</sup>,
  [James Tompkin](http://www.jamestompkin.com)<sup>1</sup><br>
  <sup>1</sup>Brown, <sup>2</sup>KAIST<br>
- BMVC 2020
+ BMVC 2020 & arXiv 2021<br>
+ [Project Homepage](http://visual.cs.brown.edu/lightfielddepth/)
 
-### [Paper](https://www.bmvc2020-conference.com/assets/papers/0395.pdf) | [Project Homepage](http://visual.cs.brown.edu/lightfielddepth/) | [Presentation Video](http://visual.cs.brown.edu/projects/lightfielddepth-webpage/video/presentation.mp4) | [Supplemental Results Video](https://www.bmvc2020-conference.com/assets/supp/0395_supp.mp4) 
+### [Depth Estimation Paper](https://arxiv.org/abs/2107.02967)
+
+### [View-consistency Paper](https://www.bmvc2020-conference.com/assets/papers/0395.pdf) | [Presentation Video](http://visual.cs.brown.edu/projects/lightfielddepth-webpage/video/presentation.mp4) | [Supplemental Results Video](https://www.bmvc2020-conference.com/assets/supp/0395_supp.mp4) 
 
 <img src="./view-consistent-depth.gif" width="100%"><br>
 
@@ -14,22 +17,22 @@
 If you use this code in your work, please cite the following works:
 
 ```
+@misc{khan2021edgeaware,
+      title={Edge-aware Bidirectional Diffusion for Dense Depth Estimation from Light Fields}, 
+      author={Numair Khan and Min H. Kim and James Tompkin},
+      year={2021},
+      eprint={2107.02967},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
 @article{khan2020vclfd,
   title={View-consistent {4D} Lightfield Depth Estimation},
   author={Numair Khan, Min H. Kim, James Tompkin},
   journal={British Machine Vision Conference},
   year={2020},
 }
-
-@techreport(khan2020falfd,
-  title={Fast and Accurate {4D} Light Field Depth Estimation},
-  author={Numair Khan, Min H. Kim, James Tompkin},
-  year={2020},
-  institution={Brown University},
-  number={CS-20-01},
-}
 ```
-The technical report _Fast and Accurate 4D Light Field Depth Estimation_ is available [here](http://cs.brown.edu/research/pubs/techreports/reports/CS-20-01.html).
 
 ## Running the MATLAB Code
 * [Installing ImageStack](#installing-imagestack)
