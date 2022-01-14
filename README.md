@@ -4,12 +4,10 @@
  [Min H. Kim](http://vclab.kaist.ac.kr/minhkim/)<sup>2</sup>,
  [James Tompkin](http://www.jamestompkin.com)<sup>1</sup><br>
  <sup>1</sup>Brown, <sup>2</sup>KAIST<br>
- BMVC 2020 & arXiv 2021<br>
+ BMVC 2020 & BMVC 2021<br>
  [Project Homepage](http://visual.cs.brown.edu/lightfielddepth/)
 
-### [Depth Estimation Paper](https://arxiv.org/abs/2107.02967) via edge-aware bi-directional diffusion
-
-### [View Consistency Paper](https://www.bmvc2020-conference.com/assets/papers/0395.pdf) | [Presentation Video](http://visual.cs.brown.edu/projects/lightfielddepth-webpage/video/presentation.mp4) | [Supplemental Results Video](https://www.bmvc2020-conference.com/assets/supp/0395_supp.mp4) 
+### [View Consistency Paper](https://www.bmvc2020-conference.com/assets/papers/0395.pdf) | [Edge-aware Bi-directional Diffusion Paper](https://www.bmvc2021-virtualconference.com/assets/papers/0637.pdf) | [Presentation Video](http://visual.cs.brown.edu/projects/lightfielddepth-webpage/video/presentation.mp4) | [Supplemental Results Video](https://www.bmvc2020-conference.com/assets/supp/0395_supp.mp4) 
 
 <img src="./view-consistent-depth.gif" width="100%"><br>
 
@@ -17,13 +15,11 @@
 If you use this code in your work, please cite the following works:
 
 ```
-@misc{khan2021edgeaware,
+@article{khan2021edgeaware,
       title={Edge-aware Bidirectional Diffusion for Dense Depth Estimation from Light Fields}, 
       author={Numair Khan and Min H. Kim and James Tompkin},
+      journal={British Machine Vision Conference},
       year={2021},
-      eprint={2107.02967},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
 }
 
 @article{khan2020vclfd,
